@@ -1,0 +1,57 @@
+/*#P00{
+
+}
+
+#P01{
+
+}
+
+#P02{
+
+}
+
+#P10{
+
+}
+
+#P11{
+
+}
+
+#P12{
+
+}
+
+#P20{
+
+}
+
+#P21{
+
+}
+
+#P22{
+
+}*/
+
+.piece{
+
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0rem;
+    border: 2px solid rgba(17, 13, 13, 0.35);
+    /* background-color: #44bbaa; */
+}
+
+.card , #XBox , #XHeading , #OBox , #OHeading , #TieBox , #TieHeading , #putTieValue , #putXValue , #putOValue {
+
+    background: #44bbaa;
+}
+
+#btn{
+
+    width: 1rem;
+    height: 1rem;
+    border: 1.2px solid black;
+    border-radius: 1rem;
+}
