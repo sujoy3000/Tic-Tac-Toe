@@ -80,11 +80,11 @@ function putSymbol( symbol ) {
 
     else template = `` ;
 
-    if( curX == 0 && curY == 0 ) document.getElementById('P00').innerHTML = template ;
+    if( curX == 0 && curY == 0 ) document.querySelector('#P00').innerHTML = template ;
 
-    if( curX == 0 && curY == 1 ) document.getElementById('P01').innerHTML = template ;
+    if( curX == 0 && curY == 1 ) document.querySelector('#P01').innerHTML = template ;
 
-    if( curX == 0 && curY == 2 ) document.getElementById('P02').innerHTML = template ;
+    if( curX == 0 && curY == 2 ) document.querySelector('#P02').innerHTML = template ;
 
     if( curX == 1 && curY == 0 ) document.getElementById('P10').innerHTML = template ;
 
